@@ -1,24 +1,24 @@
-
+@SuppressWarnings( "unused" )
 public class TypeFlottants {
 
 	public static void main(String[] args) {
 		
-		//float f1; //folttant simple précision qui prend 4 octets en mémoire
-		//double f2; //folttant simple précision qui prend 8 octets en mémoire
+		//float f1; //folttant simple prï¿½cision qui prend 4 octets en mï¿½moire
+		//double f2; //folttant simple prï¿½cision qui prend 8 octets en mï¿½moire
 		double f2 = 3.141592654; 
-		//f1 = 3.6;  donne une erreur car le "." type en double et dnc il y a risuqe de perte de précision
+		//f1 = 3.6;  donne une erreur car le "." type en double et dnc il y a risuqe de perte de prï¿½cision
 		//pour "forcer" une valeur flottante il faut la typer avec f ou F
 		float f1= 3.6f;
 		
 		//System.out.println(f2 + " - " + f1);
 		
-		// il y a 2 formes pour représenter un nombre flottant avec le "." et l'exposant
+		// il y a 2 formes pour reprï¿½senter un nombre flottant avec le "." et l'exposant
 		 
 		double avecLePoint = 1.1234;
 		double avecLexposant = 11234e-4;
 		//System.out.println(avecLePoint + " - " + avecLexposant);
 		
-		// Attention piège
+		// Attention piï¿½ge
 		//double result = 1 / 3; // donne 0 car il s'agit de deux entiers il faut aumoins 1 flottant
 		double result = 1 / 3.00; // donne bien 0.33333
 		//System.out.println(result);
